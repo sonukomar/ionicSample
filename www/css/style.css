@@ -1,0 +1,22 @@
+/* Empty. Add your own CSS if you like */
+
+body{
+	background-image: url('../img/bg.jpg')
+}
+
+.pane {
+	background-color: transparent;
+}
+
+pull-right{
+	float:right;
+}
+
+
+input[type='text'],input[type='email'],input[type='password']{
+	color:gray;
+}
+.margin-top-15 {
+	margin-top: 45px;
+}
+

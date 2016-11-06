@@ -1,0 +1,78 @@
+
+<ion-view title="login">
+    <ion-content>
+        <div class="list margin-top-15" ng-if="login">
+         <form >
+
+           
+
+            <label class="item item-input item-floating-label">
+              <span class="input-label">User Name</span>
+              <input type="text" placeholder="Last Name">
+            </label>
+
+           
+
+            <label class="item item-input item-floating-label">
+              <span class="input-label">Password</span>
+              <input type="password" placeholder="Password">
+            </label>
+
+          
+
+            <label class="item item-input item-floating-label">
+             <button  class="button button-block button-energized" ng-click="toggleLogin();">
+                Login
+              </button>
+              <button class="button button-block button-energized pull-right" ng-click="toggleLogin();">
+                Register
+              </button>
+            </label>
+           
+
+          </form>
+         </div> 
+          <div class="list margin-top-15 register" ng-if="newUser">
+         <form >
+
+            <label class="item item-input item-floating-label">
+              <span class="input-label">Name</span>
+              <input type="text" placeholder="First Name">
+            </label>
+
+            <label class="item item-input item-floating-label">
+              <span class="input-label">User Name</span>
+              <input type="text" placeholder="Last Name">
+            </label>
+
+            <label class="item item-input item-floating-label">
+              <span class="input-label">Email</span>
+              <input type="text" placeholder="Email">
+            </label>
+
+            <label class="item item-input item-floating-label">
+              <span class="input-label">Password</span>
+              <input type="password" placeholder="Password">
+            </label>
+
+            <label class="item item-input item-floating-label">
+              <span class="input-label"> Confirm Password</span>
+              <input type="password" placeholder=" Confirm Password">
+            </label>
+
+             <label class="item item-input item-floating-label">
+             <button  class="button button-energized button-block" ng-click="toggleLogin();">
+                Login
+              </button>
+              <button class="button button-block  button-energized pull-right" ng-click="toggleLogin();"> 
+                Register
+              </button>
+            </label>
+            <label class="item item-input item-floating-label">
+             
+             
+            </label>
+          </form>
+         </div> 
+    </ion-content>
+</ion-view>
